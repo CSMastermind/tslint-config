@@ -1,6 +1,6 @@
 {
   "defaultSeverity": "error",
-  "extends": ["tslint:recommended"],
+  "extends": ["tslint:recommended", "tslint-eslint-rules", "tslint-microsoft-contrib"],
   "jsRules": {},
   "rules": {
       "adjacent-overload-signatures": true,
