@@ -10,18 +10,7 @@
       "arrow-parens": true,
       "arrow-return-shorthand": false,
       "await-promise": true,
-      "ban": [
-          true,
-          "eval",
-          {
-              "name": "$",
-              "message": "we don't use jquery on the back-end"
-          },
-          {
-              "name": ["*", "forEach"],
-              "message": "Use a regular for loop instead."
-          }
-      ],
+      "ban": [ true, "eval" ],
       "ban-comma-operator": true,
       "binary-expression-operand-order": true,
       "block-spacing": [true, "always"],
@@ -55,7 +44,7 @@
       "match-default-export-name": true,
       "max-classes-per-file": [true, 1],
       "max-file-line-count": [false],
-      "max-func-body-length": [true, 45],
+      "max-func-body-length": [true, 60],
       "max-line-length": [false],
       "member-access": [true, "check-accessor", "check-parameter-property", "check-constructor"],
       "member-ordering": [
@@ -73,7 +62,6 @@
               ]
           }
       ],
-      
       "missing-jsdoc": true,
       "mocha-avoid-only": true,
       "mocha-no-side-effect-code": [true],
@@ -89,7 +77,7 @@
       "no-bitwise": true,
       "no-boolean-literal-compare": true,
       "no-conditional-assignment": true,
-      "no-consecutive-blank-lines": [true, 2],
+      "no-consecutive-blank-lines": [true, 4],
       "no-console": [true],
       "no-constant-condition": true,
       "no-construct": true,
